@@ -1,0 +1,15 @@
+{
+  "name": "TH",
+  "version": "0.0.1",
+  "description": "Torch Tensor library in nodejs",
+  "keywords": ["torch", "ffi", "bindings", "tensor"],
+  "author": "Soumith Chintala <soumith@gmail.com>",
+  "main": "TH.js",
+  "dependencies": {
+    "ffi": ">= 0",
+    "ffi-generate": ">= 0",
+    "ref": ">= 0",
+    "ref-array": ">= 0",
+    "ref-struct": ">= 0"
+  }
+}
