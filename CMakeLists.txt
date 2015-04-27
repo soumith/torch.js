@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(torchjs)
+project(torch)
 
 include_directories(${CMAKE_JS_INC})
 
