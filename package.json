@@ -1,0 +1,20 @@
+{
+  "name": "torch",
+  "version": "1.0.0",
+  "description": "A performant tensor library for node.js",
+  "keywords": [
+    "torch",
+    "matrix",
+    "tensor",
+    "scientific"
+  ],
+  "author": "Soumith Chintala <soumith@gmail.com>",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "cmake-js": "*",
+    "nan": "^1.7.0"
+  },
+  "scripts": {
+    "install": "node ./node_modules/.bin/cmake-js rebuild"
+  }
+}
